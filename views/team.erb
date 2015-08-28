@@ -1,3 +1,18 @@
-
-
-
+<h1>OUR POWERS COMBINED</h1>
+<p>
+We are <%= @team[:name] %>, together because <%= @team[:motto] %>.
+</p>
+<p>
+Separately, we are
+<%= @team[:members][:super1][:name] %>, who can <%= @team[:members][:super1][:power] %>.
+<%= @team[:members][:super1][:bio] %>
+<br>-AND-<br>
+<%= @team[:members][:super2][:name] %>, who can <%= @team[:members][:super2][:power] %>.
+<%= @team[:members][:super2][:bio] %>
+<br>-AND-<br>
+<%= @team[:members][:super3][:name] %>, who can <%= @team[:members][:super3][:power] %>.
+<%= @team[:members][:super3][:bio] %>
+</p>
+<p>
+But together we're so much more.
+</p>

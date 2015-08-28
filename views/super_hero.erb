@@ -1,1 +1,36 @@
-
+<h1>Create a Team and Heroes!</h1>
+<h2>TOGETHER WE'RE MORE</h2>
+<form action="/teams" method="post">
+  <label for="name">Team Name</label>
+  <input id="name" type="text" name="team[name]" value="">
+  <label for="motto">Team Motto</label>
+  <input id="motto" type="text" name="team[motto]" value="">
+  <div>
+  <label for="members">Team Members</label>
+    <div>
+    <label for="name">Name</label>
+    <input id="name" type="text" name="team[members][super1][name]" value="">
+    <label for="power">Power</label>
+    <input id="power" type="text" name="team[members][super1][power]" value="">
+    <label for="bio">Bio</label>
+    <input id="bio" type="text" name="team[members][super1][bio]" value="">
+    </div>
+    <div>
+    <label for="name">Name</label>
+    <input id="name" type="text" name="team[members][super2][name]" value="">
+    <label for="power">Power</label>
+    <input id="power" type="text" name="team[members][super2][power]" value="">
+    <label for="bio">Bio</label>
+    <input id="bio" type="text" name="team[members][super2][bio]" value="">
+    </div>
+    <div>
+    <label for="name">Name</label>
+    <input id="name" type="text" name="team[members][super3][name]" value="">
+    <label for="power">Power</label>
+    <input id="power" type="text" name="team[members][super3][power]" value="">
+    <label for="bio">Bio</label>
+    <input id="bio" type="text" name="team[members][super3][bio]" value="">
+    </div>
+  </div>
+  <input type="submit" value="BLAM">
+</form>
